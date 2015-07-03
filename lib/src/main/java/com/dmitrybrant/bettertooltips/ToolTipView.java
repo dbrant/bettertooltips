@@ -13,7 +13,7 @@
  * limitations under the License.
  */
 
-package com.appenguin.onboarding;
+package com.dmitrybrant.bettertooltips;
 
 import android.annotation.SuppressLint;
 import android.content.Context;

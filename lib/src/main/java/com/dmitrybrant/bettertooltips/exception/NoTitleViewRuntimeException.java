@@ -1,4 +1,4 @@
-package com.appenguin.onboarding.exception;
+package com.dmitrybrant.bettertooltips.exception;
 
 /**
  * A {@link RuntimeException} that is thrown if the title view in the

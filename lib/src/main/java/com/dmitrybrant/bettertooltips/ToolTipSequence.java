@@ -1,4 +1,4 @@
-package com.appenguin.onboarding;
+package com.dmitrybrant.bettertooltips;
 
 import java.util.LinkedList;
 

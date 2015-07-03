@@ -1,8 +1,8 @@
-package com.appenguin.demo;
+package com.dmitrybrant.bettertooltips.demo;
 
 import android.content.Context;
 
-import com.appenguin.onboarding.ToolTip;
+import com.dmitrybrant.bettertooltips.ToolTip;
 
 /**
  * Created by Ryan on 21/01/2015.

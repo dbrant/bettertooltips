@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.appenguin.demo" >
+    package="com.dmitrybrant.bettertooltips.demo" >
 
     <application
         android:allowBackup="true"
@@ -22,7 +22,7 @@
             android:parentActivityName=".MainActivity" >
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.appenguin.demo.MainActivity" />
+                android:value="com.dmitrybrant.bettertooltips.demo.MainActivity" />
         </activity>
     </application>
 

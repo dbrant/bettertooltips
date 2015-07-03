@@ -1,4 +1,4 @@
-package com.appenguin.demo;
+package com.dmitrybrant.bettertooltips.demo;
 
 import android.app.Activity;
 import android.os.Bundle;
@@ -6,9 +6,9 @@ import android.os.Handler;
 import android.view.LayoutInflater;
 import android.view.View;
 
-import com.appenguin.onboarding.ToolTip;
-import com.appenguin.onboarding.ToolTipRelativeLayout;
-import com.appenguin.onboarding.ToolTipView;
+import com.dmitrybrant.bettertooltips.ToolTip;
+import com.dmitrybrant.bettertooltips.ToolTipRelativeLayout;
+import com.dmitrybrant.bettertooltips.ToolTipView;
 
 /**
  * Created by Ryan on 18/01/2015.

@@ -1,16 +1,47 @@
 apply plugin: 'com.android.library'
 
-apply from: 'pushMaven.gradle'
+version = "1.0.4"
+
+ext {
+    bintrayRepo = 'maven'
+    bintrayName = 'BetterToolTips'
+
+    publishedGroupId = 'com.dmitrybrant'
+    libraryName = 'BetterToolTips'
+    artifact = 'bettertooltips'
+
+    libraryDescription = 'Library for easily displaying tooltips in Android.'
+
+    siteUrl = 'https://github.com/dbrant/bettertooltips'
+    gitUrl = 'https://github.com/dbrant/bettertooltips.git'
+
+    libraryVersion = version
+
+    developerId = 'dmitrybrant'
+    developerName = 'Dmitry Brant'
+    developerEmail = 'me@dmitrybrant.com'
+
+    licenseName = 'The Apache Software License, Version 2.0'
+    licenseUrl = 'http://www.apache.org/licenses/LICENSE-2.0.txt'
+    allLicenses = ["Apache-2.0"]
+}
 
 android {
-    compileSdkVersion 19
-    buildToolsVersion "19.1.0"
+    compileSdkVersion 22
+    buildToolsVersion "22.0.1"
+    resourcePrefix "bettertooltips_"
 
     defaultConfig {
         minSdkVersion 8
-        targetSdkVersion 19
-        versionCode Integer.parseInt(new Date().format('yyyyMMddHH'))
-        versionName VERSION_NAME
+        targetSdkVersion 22
+        versionCode 3
+        versionName version
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+        }
     }
 
     compileOptions {

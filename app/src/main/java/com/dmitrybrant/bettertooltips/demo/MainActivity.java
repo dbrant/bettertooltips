@@ -1,4 +1,4 @@
-package com.appenguin.demo;
+package com.dmitrybrant.bettertooltips.demo;
 
 import android.app.Activity;
 import android.content.Intent;

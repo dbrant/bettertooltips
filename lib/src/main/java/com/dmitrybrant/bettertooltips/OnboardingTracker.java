@@ -1,4 +1,4 @@
-package com.appenguin.onboarding;
+package com.dmitrybrant.bettertooltips;
 
 import android.content.Context;
 import android.content.SharedPreferences;

@@ -1,14 +1,14 @@
-package com.appenguin.demo;
+package com.dmitrybrant.bettertooltips.demo;
 
 import android.app.Activity;
 import android.os.Bundle;
 import android.view.View;
 
-import com.appenguin.onboarding.OnboardingTracker;
-import com.appenguin.onboarding.ToolTip;
-import com.appenguin.onboarding.ToolTipRelativeLayout;
-import com.appenguin.onboarding.ToolTipSequence;
-import com.appenguin.onboarding.ToolTipView;
+import com.dmitrybrant.bettertooltips.OnboardingTracker;
+import com.dmitrybrant.bettertooltips.ToolTip;
+import com.dmitrybrant.bettertooltips.ToolTipRelativeLayout;
+import com.dmitrybrant.bettertooltips.ToolTipSequence;
+import com.dmitrybrant.bettertooltips.ToolTipView;
 
 public class TrackerActivity extends Activity implements View.OnClickListener {
 
